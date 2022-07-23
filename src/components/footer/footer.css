@@ -1,0 +1,274 @@
+footer{
+    color:white;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: rgb(20, 6, 60);
+    position: relative;
+    bottom:0vh;
+    font-size: 0.9rem;
+    padding-top: 3rem;
+}
+
+
+
+.foot-1{
+ 
+display: grid;
+grid-template-columns: 1fr 1fr;
+
+}
+.foot-socials{
+    /* align-self: center; */
+    justify-self: center;
+ 
+}
+
+.ul-foot-1 {
+    list-style: none;
+    
+}
+.ul-foot-1 li {
+    color:white;
+display: flex;
+align-items: center;
+gap: 0.3rem;
+
+}
+
+
+
+.foot-navigation{
+    /* align-self: normal; */
+    justify-self: center;
+}
+.ul-foot-2{
+    text-align: center;
+   list-style: none;
+ 
+}
+
+.navlink2 {
+
+    text-decoration: none;
+    color: rgb(15, 228, 47);
+}
+footer li {
+    font-family: "Oxygen", sans-serif;
+    padding: 0.7rem 0;
+}
+
+footer h4{
+    text-align: center;
+    font-size: 1.5rem;
+}
+footer li{
+    font-size: 1.1rem;
+}
+.social-icon{
+    width:1.5rem;
+}
+.foot-3{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4.5rem;
+ 
+}
+
+.mail-icon{
+    height: 1.9rem;
+    align-self: center;
+}
+#detail-1{
+display: none;
+    transition: ease-in-out 1s;
+}
+#detail-2{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+display: none;
+    transition: ease-in-out 0.7s;
+}
+
+#dev-detail{
+    transition: ease-in 0.5s;
+    cursor: pointer;
+    padding-bottom: 2rem;
+}
+#dev-detail:hover{
+color: aqua;
+}
+
+.on #detail-1{
+    display: flex;
+    padding-bottom: 2rem;
+}
+.on #detail-2{
+    display: flex;
+    padding-bottom: 2rem;
+}
+
+
+.foot-2{
+    text-align: center;
+
+padding-bottom: 2rem;
+padding-top: 5rem;
+
+}
+
+.foot-2 p{
+font-size: 1.5rem;    
+}
+#viber-li , #whatsapp-li {
+    cursor: pointer;
+}
+
+
+
+@media (max-width:1025px) {
+
+    footer h4{
+        font-size: 1.4rem;
+    }
+
+    footer li{
+font-size: 1.1rem; 
+    }
+
+    .foot-2 p{
+font-size: 1.3rem;
+    }
+    .social-icon{
+        width:1.3rem;
+    }
+    .mail-icon{
+        width:1.7rem;
+    }
+
+
+.foot-3{
+    gap: 4rem;
+    padding: 1.5rem;
+}
+}
+
+@media (max-width:800px) {
+
+    footer h4{
+        font-size: 1.3rem;
+    }
+
+    footer li{
+font-size: 1rem; 
+padding: 0.5rem 0;
+    }
+
+    .foot-2 p{
+font-size: 1.1rem;
+    }
+    .social-icon{
+        width:1.1rem;
+    }
+    .mail-icon{
+        width:1.5rem;
+    }
+    .foot-3{
+        padding: 1.3rem;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+
+}
+
+@media (max-width:600px) {
+
+    footer h4{
+        font-size: 1.1rem;
+    }
+
+    footer li{
+font-size: 0.9rem; 
+padding: 0.5rem 0;
+    }
+
+    .foot-2 p{
+font-size: 1rem;
+    }
+    .social-icon{
+        width:1.1rem;
+    }
+    .mail-icon{
+        width:1.4rem;
+    }
+
+
+.foot-3{
+    padding: 1.1rem;
+    gap:1rem;
+   
+}
+}
+@media (max-width:480px) {
+
+    footer h4{
+        font-size: 1.1rem;
+    }
+
+    footer li{
+font-size: 0.9rem; 
+padding: 0.4rem 0;
+    }
+
+    .foot-2 p{
+font-size: 0.9rem;
+    }
+    .social-icon{
+        width:0.9rem;
+    }
+    .mail-icon{
+        width:1.3rem;
+    }
+    .foot-3{
+        padding: 0.9rem;
+        gap:0.5rem;
+    }
+}
+@media (max-width:320px) {
+
+    footer h4{
+        font-size: 0.7rem;
+    }
+
+    footer li{
+ font-size: 0.5rem; 
+ padding: 0.2rem 0;
+    }
+
+    .foot2 p{
+ font-size: 0.7rem;
+    }
+    .social-icon{
+        width:0.7rem;
+    }
+    .mail-icon{
+        width: 1rem;
+        height: 1rem;
+    }
+    .foot-3{
+        padding: 0.7rem;
+        gap:0.1rem;
+    }
+
+ 
+}
+
+footer a {
+    text-decoration: none;
+    color: azure;
+}

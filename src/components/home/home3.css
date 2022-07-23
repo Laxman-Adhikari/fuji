@@ -1,0 +1,132 @@
+#body3{
+    font-family: 'Nuosu SIL', serif;
+    font-family: 'Inter', sans-serif;
+    width: 100%;
+}
+
+.container-home-3{
+display: grid;
+grid-template-columns: 65% 35%
+
+}
+
+.img3-div{
+align-self: center;
+justify-self: end;
+}
+
+main .img3 {
+    width: 35vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.right-home-3{
+    align-self: center;
+    justify-self: center;
+
+}
+
+#h2-home-3{
+font-size: 2.3rem;
+text-align: center;
+}
+#ul-home-3{
+
+    list-style: none;
+    font-size: 1.7rem;
+   /* letter-spacing: 0.11vh; */
+   margin-top: 1.3rem;
+}
+#ul-home-3 li {
+    padding: 0.7rem 0vh;
+    display: flex;
+    align-items: center;
+gap: 0.4rem;
+}
+
+.right-arrow{
+width: 1.7rem;
+}
+
+@media (max-width:1025px) {
+
+
+#h2-home-3{
+font-size: 1.7rem;
+}
+
+#ul-home-3{
+    font-size: 1.5rem;
+}
+.right-arrow{
+    width: 1.5rem;
+    }
+
+main .img3 {
+    width: 40vw;
+}
+
+}
+
+@media (max-width:800px) {
+
+    #h2-home-3{
+        font-size: 1.5rem;
+        }
+        
+        #ul-home-3{
+            font-size: 1.3rem;
+        }
+        .right-arrow{
+            width: 1.3rem;
+            }
+        
+}
+
+
+@media (max-width:600px) {
+    #h2-home-3{
+        font-size: 1.3rem;
+        }
+        
+        #ul-home-3{
+            font-size: 1.1rem;
+        }
+        .right-arrow{
+            width: 1.1rem;
+            }
+}
+
+@media (max-width: 480px) {
+    #h2-home-3{
+        font-size: 1.1rem;
+        }
+        
+        #ul-home-3{
+            font-size: 0.9rem;
+        }
+        .right-arrow{
+            width: 0.9rem;
+            }
+     
+}
+
+@media (max-width: 320px) {
+    #h2-home-3{
+        font-size: 0.9rem;
+        }
+        
+        #ul-home-3{
+            font-size: 0.7rem;
+        }
+        .right-arrow{
+            width: 0.7rem;
+            }
+        main .img3 {
+            width: 45vw;
+        }
+   
+        
+}

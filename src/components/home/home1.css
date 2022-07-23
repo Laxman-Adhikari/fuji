@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nuosu+SIL&family=Spectral:ital,wght@1,500&display=swap');
+
+#home-container {
+    background-color: #b1a8b9;
+}
+
+#body1 {
+
+    font-family: 'Nuosu SIL', serif;
+    font-family: 'Inter', sans-serif;
+    /* height: 79vh; */
+    width: 100%;
+
+}
+
+.home-up-1 {
+    width: 100%;
+}
+
+#home-h1-1 {
+    padding-top: 5vh;
+    text-align: center;
+    font-weight: 700;
+    font-size: 3rem;
+    font-family: "Calibri";
+    color: #4b4452;
+}
+
+#body1 #home-p1-1 {
+    padding-top: 2vh;
+    font-family: 'Spectral', serif;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 700;
+    color: #2f2836;
+}
+
+.home-mid-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+
+    margin: 11vh 2vh 0vh 2vh;
+}
+
+.home-left-1 {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#body1 #home-h2-1 {
+    text-align: center;
+    font-size: 3.5rem;
+    color: #2f2836;
+
+}
+
+.img1-div {
+    justify-self: right;
+
+}
+
+#body1 #img1 {
+    width: 40vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+.midcbtn {
+
+    padding-top: 3vh;
+}
+
+.midbtn {
+    padding: 1.9vh;
+    
+
+}
+
+#midbtn1 {
+    margin-right: 1vw;
+}
+@media (prefers-color-scheme: light) {
+#midbtn1, #midbtn2{
+    background-color:#1d80a2;
+    border-radius: 0.5rem;
+    border: none;
+    color:#e6f4f1;
+}
+}
+
+@media (prefers-color-scheme: dark) {
+    #midbtn1, #midbtn2{
+        background-color:#ad76f0;
+        border-radius: 0.5rem;
+        border: none;
+    }
+    
+}
+
+
+
+
+@media (max-width:1025px) {
+
+
+
+    .home-mid-1 {
+        row-gap: 9vh;
+        margin: 9vh 2vh 2vh 0;
+    }
+
+    .home-left-1 {
+        /* height:25vh; */
+        justify-content: center;
+    }
+
+    #body1 #home-h2-1 {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    .midbtn {
+        padding: 1.7vh;
+    
+    }
+
+}
+
+@media (max-width: 769px) {
+    #body1 .img1 {
+        position: relative;
+        top: 3vh;
+
+    }
+
+    .home-mid-1 {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 7vh 2vh 2vh 0;
+    }
+
+    .img1-div {
+        justify-self: center;
+    }
+
+    #body1 #img1 {
+        width: 35vw;
+    }
+
+
+    .midbtn {
+        padding: 1.5vh;
+
+    }
+
+}
+
+
+@media (max-width:680px) {
+
+
+    .home-mid-1 {
+        row-gap: 7vh;
+        margin: 5vh 2vh 2vh 0;
+    }
+
+    #home-h1-1 {
+        padding-top: 5vh;
+        text-align: center;
+        font-weight: 700;
+        font-size: 2.5rem;
+    }
+
+    #body1 #home-p1-1 {
+        padding-top: 2vh;
+        font-size: 1.5rem;
+        font-weight: 700;
+
+    }
+
+    #body1 #home-h2-1 {
+        font-size: 1.7rem;
+    }
+
+    #body1 #img1 {
+        width: 40vw;
+    }
+
+
+    .midbtn {
+        padding: 1.4vh;
+
+    }
+}
+
+    @media (max-width: 480px) {
+
+        .home-mid-1 {
+            row-gap: 5vh;
+            margin: 3vh 2vh 2vh 0;
+        }
+
+        #home-h1-1 {
+            padding-top: 5vh;
+            font-weight: 700;
+            font-size: 2rem;
+        }
+
+        #body1 #home-p1-1 {
+            padding-top: 2vh;
+            font-size: 1.3rem;
+            font-weight: 700;
+        }
+
+        #body1 #home-h2-1 {
+            font-size: 1.7rem;
+        }
+
+
+        #body1 #img1 {
+            width: 45vw;
+        }
+
+        .midbtn {
+            padding: 1.3vh;
+
+        }
+
+    }
+        @media (max-width: 320px) {
+
+            .home-mid-1 {
+                row-gap: 3vh;
+                margin: 1vh 2vh 2vh 0;
+
+            }
+
+            .midbtn {
+                padding: 1vh;
+
+            }
+        }
+
+
+        @media (max-width: 280px) {
+
+
+            .midbtn {
+                padding: 0.5vh;
+
+            }
+
+
+        }
