@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/fuji/static/css/main.48df14c6.css",
+    "main.js": "/fuji/static/js/main.77a65806.js",
+    "static/media/img13.png": "/fuji/static/media/img13.972a0c4181845ab2ba38.png",
+    "static/media/messenger-logo.png": "/fuji/static/media/messenger-logo.8333dbfbe8b2875dbc1a.png",
+    "static/media/img5.png": "/fuji/static/media/img5.91e2a71d54783ab63f8d.png",
+    "static/media/img1.png": "/fuji/static/media/img1.624e0713b753b8e55f1b.png",
+    "static/media/img2.png": "/fuji/static/media/img2.668783b4ee9a667bc833.png",
+    "static/media/img3.png": "/fuji/static/media/img3.392fd637912a297c6629.png",
+    "static/media/img4.png": "/fuji/static/media/img4.94f7bba52b5f978ad534.png",
+    "static/media/img9.png": "/fuji/static/media/img9.3da542e1c3f0479b1dbb.png",
+    "static/media/australia.png": "/fuji/static/media/australia.9e3e3e4a96acb2a2705f.png",
+    "static/media/right-arrow.png": "/fuji/static/media/right-arrow.5e95392a7fe7b8d8cf67.png",
+    "static/media/bars-staggered-solid.png": "/fuji/static/media/bars-staggered-solid.7c2545c5c7e237c75d76.png",
+    "static/media/bars-solid.png": "/fuji/static/media/bars-solid.9e48e5dc3d54afd2d1e4.png",
+    "static/media/logo.png": "/fuji/static/media/logo.5069c899a5a68977e9bb.png",
+    "static/media/japan.png": "/fuji/static/media/japan.6c5496b280b261430cf5.png",
+    "static/media/united-kingdom.png": "/fuji/static/media/united-kingdom.d3f59a424701a8c85318.png",
+    "static/media/south-korea.png": "/fuji/static/media/south-korea.13e6a5373d57d836b5fb.png",
+    "index.html": "/fuji/index.html",
+    "static/media/square-envelope-solid.svg": "/fuji/static/media/square-envelope-solid.ee21e7aaaee8440e72e818b48f781d62.svg",
+    "static/media/location-dot-solid.svg": "/fuji/static/media/location-dot-solid.994928ef06a51d299a5aa0249b17719a.svg",
+    "static/media/message-solid.svg": "/fuji/static/media/message-solid.6bfadd14417e349091378934b5dae592.svg",
+    "main.48df14c6.css.map": "/fuji/static/css/main.48df14c6.css.map",
+    "main.77a65806.js.map": "/fuji/static/js/main.77a65806.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.48df14c6.css",
+    "static/js/main.77a65806.js"
+  ]
+}
