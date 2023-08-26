@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/Laxman-Adhikari/fuji/static/css/main.6ea4d77a.css",
+    "main.js": "/Laxman-Adhikari/fuji/static/js/main.8e11f32f.js",
+    "static/media/messenger-logo.png": "/Laxman-Adhikari/fuji/static/media/messenger-logo.8333dbfbe8b2875dbc1a.png",
+    "static/media/img5.png": "/Laxman-Adhikari/fuji/static/media/img5.91e2a71d54783ab63f8d.png",
+    "static/media/img1.png": "/Laxman-Adhikari/fuji/static/media/img1.624e0713b753b8e55f1b.png",
+    "static/media/img2.png": "/Laxman-Adhikari/fuji/static/media/img2.668783b4ee9a667bc833.png",
+    "static/media/img3.png": "/Laxman-Adhikari/fuji/static/media/img3.392fd637912a297c6629.png",
+    "static/media/img13.png": "/Laxman-Adhikari/fuji/static/media/img13.dbca22595f313cb42a18.png",
+    "static/media/img4.png": "/Laxman-Adhikari/fuji/static/media/img4.94f7bba52b5f978ad534.png",
+    "static/media/img9.png": "/Laxman-Adhikari/fuji/static/media/img9.3da542e1c3f0479b1dbb.png",
+    "static/media/australia.png": "/Laxman-Adhikari/fuji/static/media/australia.9e3e3e4a96acb2a2705f.png",
+    "static/media/right-arrow.png": "/Laxman-Adhikari/fuji/static/media/right-arrow.5e95392a7fe7b8d8cf67.png",
+    "static/media/bars-staggered-solid.png": "/Laxman-Adhikari/fuji/static/media/bars-staggered-solid.7c2545c5c7e237c75d76.png",
+    "static/media/bars-solid.png": "/Laxman-Adhikari/fuji/static/media/bars-solid.9e48e5dc3d54afd2d1e4.png",
+    "static/media/logo.png": "/Laxman-Adhikari/fuji/static/media/logo.5069c899a5a68977e9bb.png",
+    "static/media/japan.png": "/Laxman-Adhikari/fuji/static/media/japan.6c5496b280b261430cf5.png",
+    "static/media/united-kingdom.png": "/Laxman-Adhikari/fuji/static/media/united-kingdom.d3f59a424701a8c85318.png",
+    "static/media/south-korea.png": "/Laxman-Adhikari/fuji/static/media/south-korea.13e6a5373d57d836b5fb.png",
+    "index.html": "/Laxman-Adhikari/fuji/index.html",
+    "static/media/square-envelope-solid.svg": "/Laxman-Adhikari/fuji/static/media/square-envelope-solid.ee21e7aaaee8440e72e818b48f781d62.svg",
+    "static/media/location-dot-solid.svg": "/Laxman-Adhikari/fuji/static/media/location-dot-solid.994928ef06a51d299a5aa0249b17719a.svg",
+    "static/media/message-solid.svg": "/Laxman-Adhikari/fuji/static/media/message-solid.6bfadd14417e349091378934b5dae592.svg",
+    "main.6ea4d77a.css.map": "/Laxman-Adhikari/fuji/static/css/main.6ea4d77a.css.map",
+    "main.8e11f32f.js.map": "/Laxman-Adhikari/fuji/static/js/main.8e11f32f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6ea4d77a.css",
+    "static/js/main.8e11f32f.js"
+  ]
+}
