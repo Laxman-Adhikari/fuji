@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./logo_white.ico" type="image/x-icon" id="faviconTag">
+  <title>Fuji Intl Education Consultancy
+  </title>
+  <div class="divfontlinks">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+  </div>
+</head>
+
+<body>
+  <div id="root"> </div>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+const favicon = document.querySelector("#faviconTag")
+const isdark = window.matchMedia("(prefers-color-scheme:dark)")
+
+const change_favicon = ()=>{
+
+  if (isdark.matches){
+    favicon.href= "logo_white.ico"
+  }
+  else{
+  
+    favicon.href= "logo_black.ico"
+  }
+}
+change_favicon()
+console.log(isdark.matches)
+isdark.addEventListener("change",change_favicon)
+
+// isdark.addEventListener(change_favicon)
+
+})
+
+</script>
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1ec15d95.css",
+    "main.js": "/static/js/main.3d2834d9.js",
+    "static/media/img1.png": "/static/media/img1.624e0713b753b8e55f1b.png",
+    "static/media/img2.png": "/static/media/img2.668783b4ee9a667bc833.png",
+    "static/media/img3.png": "/static/media/img3.392fd637912a297c6629.png",
+    "static/media/australia.png": "/static/media/australia.9e3e3e4a96acb2a2705f.png",
+    "static/media/right-arrow.png": "/static/media/right-arrow.5e95392a7fe7b8d8cf67.png",
+    "static/media/bars-staggered-solid.png": "/static/media/bars-staggered-solid.7c2545c5c7e237c75d76.png",
+    "static/media/bars-solid.png": "/static/media/bars-solid.9e48e5dc3d54afd2d1e4.png",
+    "static/media/logo.png": "/static/media/logo.5069c899a5a68977e9bb.png",
+    "static/media/japan.png": "/static/media/japan.6c5496b280b261430cf5.png",
+    "static/media/united-kingdom.png": "/static/media/united-kingdom.d3f59a424701a8c85318.png",
+    "static/media/south-korea.png": "/static/media/south-korea.13e6a5373d57d836b5fb.png",
+    "index.html": "/index.html",
+    "main.1ec15d95.css.map": "/static/css/main.1ec15d95.css.map",
+    "main.3d2834d9.js.map": "/static/js/main.3d2834d9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1ec15d95.css",
+    "static/js/main.3d2834d9.js"
+  ]
+}

@@ -1,0 +1,171 @@
+ #midbody1 {
+
+     font-family: 'Nuosu SIL', serif;
+     font-family: 'Inter', sans-serif;
+     width: 100%;
+     background-color: #b1a8b9;
+     padding: 5rem 3rem 5rem 0;
+ }
+
+ .contain1contact {
+     display: grid;
+     grid-template-columns: 65% 35%;
+ }
+
+ .leftcontact-1 {
+     align-self: center;
+     align-items: center;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+
+ }
+
+
+ #contbody1h2-1 {
+     font-size: 2rem;
+     text-align: center;
+     padding-top: 0vh;
+     padding-bottom: 2.5rem;
+     text-align: center;
+ }
+
+ iframe {
+     border: none;
+     border-radius: 2vh;
+     height: 40vh;
+     width: 45vw;
+
+ }
+
+ .img4-div {
+     align-self: center;
+     justify-self: end;
+
+ }
+
+ .img4 {
+     width: 20vw;
+     background-repeat: no-repeat;
+     background-size: contain;
+     background-position: center;
+ }
+
+ /* .midbtn-2-clicked:active{
+    transition: ease-in-out 2s;
+   color:royalblue;
+ } */
+
+ @media (max-width:1025px) {
+    #midbody1 {
+        padding: 5rem 0rem  5rem 0rem;
+    }
+   
+    .contain1contact {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 3rem;
+    }
+     #contbody1h2-1 {
+
+         font-size: 1.5rem;
+     }
+
+
+
+     iframe {
+         border-radius: 2vh;
+         height: 35vh;
+         width: 70vw;
+     }
+
+     .img4-div {
+        align-self: center;
+        justify-self: center;
+   
+    }
+     .img4 {
+         width: 40vw;
+     }
+
+
+ }
+
+
+ @media (max-width:800px) {
+
+    #contbody1h2-1 {
+
+        font-size: 1.5rem;
+    }
+
+    iframe {
+        border-radius: 2vh;
+        height: 30vh;
+        width: 70vw;
+    }
+
+    .img4 {
+        width: 40vw;
+    }
+
+
+ }
+
+
+ @media (max-width:600px) {
+
+    #contbody1h2-1 {
+
+        font-size: 1.5rem;
+    }
+
+    iframe {
+        border-radius: 2vh;
+        height: 30vh;
+        width: 70vw;
+    }
+
+    .img4 {
+        width: 40vw;
+    }
+
+ }
+
+ @media (max-width: 480px) {
+
+    #contbody1h2-1 {
+
+        font-size: 1.4rem;
+    }
+
+    iframe {
+        border-radius: 2vh;
+        height: 35vh;
+        width: 75vw;
+    }
+
+    .img4 {
+        width: 45vw;
+    }
+
+ }
+
+
+ @media (max-width: 320px) {
+
+    #contbody1h2-1 {
+
+        font-size: 1.3rem;
+    }
+
+    iframe {
+        border-radius: 2vh;
+        height: 35vh;
+        width: 75vw;
+    }
+
+    .img4 {
+        width: 50vw;
+    }
+ }

@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap'); /*h1*/
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap'); /*h2*/
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@700&display=swap');  /* paragraph */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap'); /*ul */
+
+*{
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+}
+
+h2{
+    font-family: 'Source Sans Pro', sans-serif;   
+}
+
+p{
+    font-family: 'Oxygen', sans-serif;
+}
+
+ul{
+    font-family: 'Nunito', sans-serif;
+}

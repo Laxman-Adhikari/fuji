@@ -1,0 +1,182 @@
+#midbody2{
+    font-family: 'Nuosu SIL', serif;
+    font-family: 'Inter', sans-serif;
+
+    width: 100%;
+    background-color: #b1a8b9;
+}
+
+.img5-div{
+    align-self: center;
+    justify-self: center;
+}
+.img5{
+
+   width: 35vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.contain-contact-2{
+display: grid;
+grid-template-columns: 55% 45%;
+padding: 0rem 1vw 5rem 1vw;
+
+}
+
+.containtxt-2{
+align-self: center;
+justify-self: center;
+display: grid;
+grid-template-rows: 1fr 1fr;
+row-gap: 3rem;
+
+}
+
+
+#contbody1p-2{
+font-size: 1.5rem;
+font-weight: 700;
+display: flex;
+align-items: center;
+}
+#contbody2p-2{
+    font-size: 1.5rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+
+
+/* .click-contbody2p-2{
+  
+   animation: animatetext 1s ease-in-out  3;
+}
+
+@keyframes animatetext {
+
+0%{
+    color: #21695e;
+transform: scale(1.1)
+}
+
+50%{
+    color: #21695e;
+}
+100%{
+    color: #21695e;
+}
+} */
+
+#svg1{
+    height:1.5rem;
+    margin-right: 0.5rem;
+}
+#svg2{
+    height:1.5rem;
+    margin-right: 0.5rem;
+}
+.contact-h1-2{
+    font-size: 2.5rem;
+}
+
+@media (max-width:1025px) {
+    .img5{
+        width: 35vw;
+    }
+    #contbody1p-2, #contbody2p-2{
+        font-size: 1.4rem;
+    }
+    #svg1,#svg2{
+        height:1.4rem;
+        margin-right: 0.5rem;
+    }
+    .contact-h1-2{
+        font-size: 2.3rem;
+  
+    }
+    
+}
+
+@media (max-width:800px) {
+    .img5{
+        width: 40vw;
+    }
+    #contbody1p-2, #contbody2p-2{
+        font-size: 1.3rem;
+    }
+    #svg1,#svg2{
+        height:1.3rem;
+        margin-right: 0.5rem;
+    }
+    .contact-h1-2{
+        font-size: 2rem;
+    }
+    .containtxt-2{
+        row-gap: 2.5rem;
+    }
+    
+
+}
+
+
+@media (max-width:600px) {
+    .img5{
+        width: 40vw;
+    }
+    #contbody1p-2, #contbody2p-2{
+        font-size: 1.1rem;
+    }
+    #svg1,#svg2{
+        height:1.1rem;
+        margin-right: 0.5rem;
+    }
+    .contact-h1-2{
+        font-size: 1.5rem;
+    }
+    .containtxt-2{
+        row-gap: 2.5rem;
+    }
+    
+}
+
+
+@media (max-width: 480px) {
+    .img5{
+        width: 45vw;
+    }
+    #contbody1p-2, #contbody2p-2{
+        font-size: 0.9rem;
+    }
+    #svg1,#svg2{
+        height:1rem;
+        margin-right: 0.3rem;
+    }
+    .contact-h1-2{
+        font-size: 1rem;
+    }
+    .containtxt-2{
+        row-gap: 2rem;
+    }
+    
+}
+
+@media (max-width: 320px) {
+    .img5{
+        width: 45vw;
+    }
+    #contbody1p-2, #contbody2p-2{
+        font-size: 0.7rem;
+    }
+    #svg1,#svg2{
+        height:1rem;
+        margin-right: 0.3rem;
+    }
+    .contact-h1-2{
+        font-size: 0.9rem;
+    }
+    .containtxt-2{
+        row-gap: 2rem;
+    }
+}
