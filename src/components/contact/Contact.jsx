@@ -17,7 +17,7 @@ const Contact = () => {
 
                         <iframe title='iframe-map'
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d311.2642307868758!2d82.48850961358245!3d28.03814184010112!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd27f9507e0d5098!2sFuji%20International%20Japanese%20Language%20Center!5e0!3m2!1sen!2snp!4v1656068394299!5m2!1sen!2snp"
-                            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                            allowFullScreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
 
                         </iframe>
                     </div>

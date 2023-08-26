@@ -51,10 +51,6 @@
      background-position: center;
  }
 
- /* .midbtn-2-clicked:active{
-    transition: ease-in-out 2s;
-   color:royalblue;
- } */
 
  @media (max-width:1025px) {
     #midbody1 {

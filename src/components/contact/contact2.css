@@ -49,25 +49,7 @@ align-items: center;
 }
 
 
-/* .click-contbody2p-2{
-  
-   animation: animatetext 1s ease-in-out  3;
-}
 
-@keyframes animatetext {
-
-0%{
-    color: #21695e;
-transform: scale(1.1)
-}
-
-50%{
-    color: #21695e;
-}
-100%{
-    color: #21695e;
-}
-} */
 
 #svg1{
     height:1.5rem;

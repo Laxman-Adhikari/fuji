@@ -28,7 +28,7 @@ padding: 0rem 1vw 5rem 1vw;
     justify-self: center;
     display: grid;
     grid-template-rows: 1/2fr 1fr;
-    /* justify-items: center; */
+ 
     align-items: center;
     gap: 1rem;
 }

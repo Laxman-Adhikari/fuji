@@ -1,7 +1,7 @@
 
 
 import "./about1.css"
-import "./about2.css"
+
 import "../home/style.css"
 import { ReactComponent as Svg3} from "../../assets/svg/location-dot-solid.svg"
 
@@ -22,8 +22,8 @@ const About = () => {
                 
             </p>
 
-            <p id="about-p2-1"> Our motto: To facilitate the students for studying abroad
-                wihout language barrier
+            <p id="about-p2-1"> Our sole motto is 'to facilitate the students for studying abroad
+                wihout language barrier'.
 
             </p>
             <p id="about-p3-1"> Established on: </p>

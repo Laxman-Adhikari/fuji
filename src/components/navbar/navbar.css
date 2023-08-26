@@ -1,180 +1,153 @@
 header {
-
-    top: 0;
-    left: 0;
-    box-shadow: 0 0 2vh 0 rgba(0, 0, 0, 0.1);
-    z-index: 9999;
-
+  top: 0;
+  left: 0;
+  box-shadow: 0 0 2vh 0 rgba(0, 0, 0, 0.1);
+  z-index: 9999;
 }
 
 nav {
-
-    display: flex;
-    height: 11vh;
-    width: 100%;
-    background-color: #250657;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0vw 10vw 0vw 5vw;
-    font-family: 'Montserrat', sans-serif;
-
-
+  display: flex;
+  height: 11vh;
+  width: 100%;
+  background-color: #250657;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0vw 10vw 0vw 5vw;
+  font-family: "Montserrat", sans-serif;
 }
 
-
-.navul, .not_navul  {
-    display: flex;
-    list-style: none;
-    text-decoration: none;
+.navul,
+.not_navul {
+  display: flex;
+  list-style: none;
+  text-decoration: none;
 }
 
-nav  {
-    left: 0;
-    display: flex;
-    list-style: none;
+nav {
+  left: 0;
+  display: flex;
+  list-style: none;
 }
 
+nav #fujilogo {
+  height: 9vh;
 
-
-nav #fujilogo{
-height: 9vh;
-  
-    background-size: cover;
-    background-repeat: no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.not_navul li, .navul li {
-    margin: 0vh 5vw;
-}
-
-.not_navul li .navlink1, .navul li .navlink1{
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    font-size: 3vh;
-    font-weight: bolder;
-    letter-spacing: 1px;
-    border-radius: 3px;
-    transition: all 0.2 ease-in-out;
-    padding: 1vh 1vw;
-
+.not_navul li,
+.navul li {
+  margin: 0vh 5vw;
 }
 
-.not_navul li .navlink1:hover, .navul li .navlink1:hover {
-    color: rgb(0, 0, 0);
-
-    background-color: rgb(255, 255, 255);
-
+.not_navul li .navlink1,
+.navul li .navlink1 {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 3vh;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  border-radius: 3px;
+  transition: all 0.2 ease-in-out;
+  padding: 1vh 1vw;
 }
 
+.not_navul li .navlink1:hover,
+.navul li .navlink1:hover {
+  color: rgb(0, 0, 0);
+
+  background-color: rgb(255, 255, 255);
+}
 
 .bars #bar1,
 #bar2 {
+  display: none;
+}
+.bar_active {
+  display: none;
+}
+#bar1img,
+#bar2img {
+  height: 5vh;
+}
+
+@media (max-width: 1120px) {
+  header {
+    position: sticky;
+    top: 0;
+    left: 0;
+  }
+
+  .logobar {
+    height: 11vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .logo {
+    margin-left: 9vw;
+  }
+
+  .bars #bar1 {
+    display: block;
+    margin-right: 9vw;
+  }
+
+
+  nav {
+    padding: 0;
+    flex-direction: column;
+    height: 11vh;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .navul {
+    display: block;
+    padding-top: 10vh;
+    position: fixed;
+    top: 11vh;
+    background-color: #272673;
+    height: 89vh;
+    width: 100%;
+    text-align: center;
+    flex-direction: column;
+    margin-top: auto;
+  }
+  .not_navul {
     display: none;
-  
-}
-.bar_active{
+    transition: ease-in-out 0.5s;
+    left: -500%;
+  }
+
+  .process {
     display: none;
-}
-#bar1img, #bar2img{
-height: 5vh;
-}
+  }
 
+  .navul li {
+    margin: 9vh;
+  }
 
+  .bar_active {
+    display: block;
+  }
 
-@media(max-width: 1120px) {
-    header {
-        position: sticky;
-        top: 0;
-        left: 0;
-    }
+  .bar_active #bar1 {
+    display: none;
+    margin-right: 9vw;
+  }
 
-    .logobar {
-        height: 11vh;
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
+  .bar_active #bar2 {
+    display: block;
+    margin-right: 9vw;
+  }
 
-    }
-
-    .logo {
-        margin-left: 9vw;
-    }
-
-   .bars #bar1 {
-        display: block;
-        margin-right: 9vw;
-
-    }
-
-  /* .bars #bar2 {
-        margin-right: 9vw;
-        display: none;
-    } */
-
-  
-
-    nav {
-        padding: 0;
-        flex-direction: column;
-        height: 11vh;
-        align-items: center;
-        justify-content: flex-start
-    }
-
-
-
-    .navul {
-display: block;
-        padding-top: 10vh;
-        position: fixed;
-        top: 11vh;
-        background-color: #272673;
-        height: 89vh;
-        width: 100%;
-        text-align: center;
-        flex-direction: column;
-        margin-top: auto;
-    }
-    .not_navul{  
-             display: none;
-        transition: ease-in-out 0.5s;
-        left: -500%;
-     
-    }
-
-
-    .process {
-        display: none;
-    }
-
-    .navul li {
-
-        margin: 9vh;
-    }
-
-    .bar_active {
-     
-        display: block;
-  
-    }
-
-    .bar_active #bar1 {
-        display: none;
-        margin-right: 9vw;
-    }
-
-    .bar_active #bar2 {
-        display: block;
-        margin-right: 9vw;
-    }
-
-
-
-    .navul li .navlink1:hover {
-        color: white;
-        padding-bottom: 1.5vh;
-border-bottom: #b34c4cae 0.5vh solid;
-        background-color: #272673;
-    }
-
+  .navul li .navlink1:hover {
+    color: white;
+    padding-bottom: 1.5vh;
+    border-bottom: #b34c4cae 0.5vh solid;
+    background-color: #272673;
+  }
 }
