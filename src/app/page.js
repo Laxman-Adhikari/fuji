@@ -213,15 +213,15 @@ export default function Home() {
 
             <Profile profilePic={"/img/avatars/Profile.png"} 
             fullName={"Kamal Shah"} 
-            des={"My journey with Fuji's Japanese course was fantastic! The lessons were engaging, and I felt well-prepared for the IELTS. The counselors also provided great support for studying abroad. Thank you, Fuji!"} />
+            des={"My journey with Fuji's Japanese course was fantastic! The lessons were engaging, and I felt well-prepared for the test. The counselors also provided great support for studying abroad. Thank you, Fuji!"} />
 
             <Profile profilePic={"/img/avatars/Profile.png"}
              fullName={"Kabtria Sharma"} 
-             des={"I had an amazing experience with Fuji while learning English! The instructors were knowledgeable, and the IELTS preparation helped me boost my confidence for the exam. Highly recommend it!"}/>
+             des={"I had an amazing experience with Fuji while learning Korean! The instructors were knowledgeable, and the test preparation helped me boost my confidence for the exam. Highly recommend it!"}/>
 
             <Profile profilePic={"/img/avatars/Profile.png"}
              fullName={"Muna Magar"} 
-             des={"My journey with Fuji's Japanese course was fantastic! The lessons were engaging, and I felt well-prepared for the IELTS. The counselors also provided great support for studying abroad. Thank you, Fuji!"} />
+             des={"My experience with Fuji's Korean classes was fantastic! The curriculum was thorough, and the coaching prepared me well. The study abroad counseling also helped me make informed decisions."} />
 
             <Profile profilePic={"/img/avatars/Profile.png"}
              fullName={"Sagar Bista"} 
@@ -229,7 +229,7 @@ export default function Home() {
 
             <Profile profilePic={"/img/avatars/Profile.png"} 
             fullName={"Kesab Acharya"} 
-            des={"Learning Japanese at Fuji was an incredible experience! The course structure was effective, and the IELTS prep really helped me. The counseling services for studying abroad were also very insightful!"} />
+            des={"Learning Korean at Fuji was an incredible experience! The course structure was effective, and the instructors really helped me. The counseling services for studying abroad were also very insightful!"} />
 
           </div>
         </section>
