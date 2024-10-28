@@ -35,7 +35,7 @@ const more = () => {
             <div>
               <h3>Reach Us</h3>
               <p> 📍 B.P. Chowk, Ghorahi-15</p>
-              <p
+              <p onClick={()=>{window.open("https://maps.app.goo.gl/pGd6HimTmYWawiBF7")}}
                 style={{
                   textDecoration: "underline",
                   fontStyle: "italic",

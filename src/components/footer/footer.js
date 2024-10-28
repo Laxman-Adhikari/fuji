@@ -52,7 +52,7 @@ const Footer = () => {
               alignItems: "center",
               justifyContent: "center",
             }}
-            onClick={()=> window.open("https://www.youtube.com/@tech-info")}
+          
           >
             <Image
               alt=""

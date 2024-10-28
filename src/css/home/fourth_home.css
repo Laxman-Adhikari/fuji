@@ -24,8 +24,8 @@
 
 .profileImage{
     position: relative ;
-    width: 65px;
-    height: 65px;
+    min-width: 65px;
+    min-height: 65px;
 }
 
 
@@ -39,8 +39,8 @@
         
     }
     .profileImage{
-        width: 30px;
-        height: 30px;
+       min-width: 30px;
+        min-height: 30px;
     }
     .cards div:nth-child(5){
         display:none !important;
@@ -69,8 +69,8 @@
 
 
 .profileImage{
-    width: 30px;
-    height: 30px;
+   min-width: 30px;
+    min-height: 30px;
 }
 
 .container{
