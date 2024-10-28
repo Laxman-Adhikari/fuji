@@ -31,13 +31,7 @@ style={{"borderRadius":"50%"}}
 <p style={{
     fontSize: "10px"
 }}>
-Lorem ipsum dolor sit amet   
-adipisicing elit. Quia optio 
-Lorem ipsum dolor sit amet 
-adipisicing elit. Quia optio 
-Lorem ipsum dolor sit amet 
-adipisicing elit. Quia optio 
- sit dicta voluptas.    
+{des} 
 </p>
 
 

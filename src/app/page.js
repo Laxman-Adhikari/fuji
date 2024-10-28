@@ -207,12 +207,30 @@ export default function Home() {
           </h1>
 
           <div className="cards">
-            <Profile profilePic={"/img/avatars/profile.png"} />
-            <Profile profilePic={"/img/avatars/profile.png"} />
-            <Profile profilePic={"/img/avatars/profile.png"} />
-            <Profile profilePic={"/img/avatars/profile.png"} />
-            <Profile profilePic={"/img/avatars/profile.png"} />
-            <Profile profilePic={"/img/avatars/profile.png"} />
+            <Profile profilePic={"/img/avatars/Profile.png"} 
+            fullName={"Kabita Rana"} 
+            des={"I loved studying English with Fuji! The teachers were supportive, and the IELTS preparation was spot-on. The counseling services for studying abroad made my planning process much smoother. Thank you!"}/>
+
+            <Profile profilePic={"/img/avatars/Profile.png"} 
+            fullName={"Kamal Shah"} 
+            des={"My journey with Fuji's Japanese course was fantastic! The lessons were engaging, and I felt well-prepared for the IELTS. The counselors also provided great support for studying abroad. Thank you, Fuji!"} />
+
+            <Profile profilePic={"/img/avatars/Profile.png"}
+             fullName={"Kabtria Sharma"} 
+             des={"I had an amazing experience with Fuji while learning English! The instructors were knowledgeable, and the IELTS preparation helped me boost my confidence for the exam. Highly recommend it!"}/>
+
+            <Profile profilePic={"/img/avatars/Profile.png"}
+             fullName={"Muna Magar"} 
+             des={"My journey with Fuji's Japanese course was fantastic! The lessons were engaging, and I felt well-prepared for the IELTS. The counselors also provided great support for studying abroad. Thank you, Fuji!"} />
+
+            <Profile profilePic={"/img/avatars/Profile.png"}
+             fullName={"Sagar Bista"} 
+             des={"Fuji's English program exceeded my expectations! The classes were interactive, and the IELTS training made a significant difference in my score. I appreciate the guidance for studying abroad. Highly recommend!"}/>
+
+            <Profile profilePic={"/img/avatars/Profile.png"} 
+            fullName={"Kesab Acharya"} 
+            des={"Learning Japanese at Fuji was an incredible experience! The course structure was effective, and the IELTS prep really helped me. The counseling services for studying abroad were also very insightful!"} />
+
           </div>
         </section>
      
