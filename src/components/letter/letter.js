@@ -31,8 +31,8 @@ const Letter = ({ letter, bgcolor, txtcolor, position }) => {
   const speedX = 1; // Adjust this for horizontal speed
   const speedY = 1; // Adjust this for vertical speed
  
-  const boundaryX = document.documentElement.clientWidth
-  const boundaryY = document.documentElement.clientHeight
+  const boundaryX = typeof window !== 'undefined' ? window.innerWidth : 1024
+  const boundaryY = typeof window !== 'undefined' ? window.innerHeight : 1024
   useEffect(() => {
     // Function to handle the floating animation
     const floating = () => {
