@@ -5,9 +5,9 @@ import { useState } from "react";
 import "@/css/footer/footer.css"
 
 const Footer = () => {
-  const link = () => {
-    window.open("https://www.youtube.com/@tech-info");
-  };
+
+   
+ 
 
   const [devDetails, setDevDetails] = useState("Show Dev Details");
 
@@ -52,7 +52,7 @@ const Footer = () => {
               alignItems: "center",
               justifyContent: "center",
             }}
-            onClick={link}
+            onClick={()=> window.open("https://www.youtube.com/@tech-info")}
           >
             <Image
               alt=""

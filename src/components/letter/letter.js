@@ -30,8 +30,15 @@ const Letter = ({ letter, bgcolor, txtcolor, position }) => {
   // Speed and direction of floating
   const speedX = 1; // Adjust this for horizontal speed
   const speedY = 1; // Adjust this for vertical speed
-  const boundaryX = window.innerWidth;
-  const boundaryY = window.innerHeight;
+  const [boundaries, setBoundaries] = useState({ boundaryX: 0, boundaryY: 0 })
+  useEffect(() => {
+    // Set initial boundaries
+    setBoundaries({
+      boundaryX: window.innerWidth,
+      boundaryY: window.innerHeight
+    })
+  },[])
+
   useEffect(() => {
     // Function to handle the floating animation
     const floating = () => {
