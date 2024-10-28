@@ -1,0 +1,83 @@
+.hero{
+        width:100vw;
+   
+       color: black;
+       height: 100svh;
+       z-index: 2;
+       position: relative;
+       top:0;
+}
+
+.visibleHero{
+    min-height:85svh;
+    max-height:85svh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    place-items: center;
+}
+
+.hero{
+    background: rgb(236,202,202);
+    background: -moz-linear-gradient(90deg, rgba(236,202,202,1) 55%, rgba(255,255,255,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(236,202,202,1) 55%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(90deg, rgba(236,202,202,1) 55%, rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eccaca",endColorstr="#ffffff",GradientType=1);
+}
+
+.hero_text_block{
+display: flex;
+flex-direction: column;
+justify-content: center;
+gap:0.2rem;
+
+}
+
+.hero_heading_sum{
+    display: flex;
+    align-items: baseline;
+    gap:0.5rem;
+}
+
+.button_container{
+    display: flex;
+    gap:1rem;
+    margin: 1rem 0;
+}
+
+.heroImage{
+    position: relative;
+    aspect-ratio: 300/350;
+    width: 50%;
+    z-index: 2;
+
+}
+@media(min-aspect-ratio:2/1) {
+
+    .heroImage{
+        position: relative;
+                width: 50%;
+    
+    }
+}
+@media(orientation:landscape){
+    .heroImage{
+                width: 40%;
+    
+    }
+  
+
+}
+
+
+
+@media(max-width: 768px) and (orientation: portrait){
+.visibleHero{
+    grid-template-columns: 1fr;
+    grid-template-rows:1fr 1fr;
+}
+
+
+
+
+}

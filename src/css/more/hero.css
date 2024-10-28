@@ -1,0 +1,56 @@
+.hero{
+    max-height: 85svh;
+    width:100vw;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    place-items: center;
+    color:black;
+    position: relative;
+    z-index: 9;
+}
+
+
+.hero{
+    background: rgb(236,202,202);
+    background: -moz-linear-gradient(90deg, rgba(236,202,202,1) 55%, rgba(255,255,255,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(236,202,202,1) 55%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(90deg, rgba(236,202,202,1) 55%, rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eccaca",endColorstr="#ffffff",GradientType=1);
+}
+
+.heroRight{
+position: relative;
+aspect-ratio: 1;
+width: 35%;
+
+}
+
+.heroLeft{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 85vh;
+    padding-left: 5vw;
+    
+}
+p{
+    text-align: left;
+}
+
+@media(max-width:720px){
+    .hero{
+        grid-template-columns: 1fr ;
+       padding-top: 1rem;
+     
+    }
+    .heroLeft{
+        order:2;
+        padding: 1rem;
+       height:70svh;
+        justify-content: space-evenly;
+      
+    }
+    p{
+        font-size: 13px;
+    }
+}

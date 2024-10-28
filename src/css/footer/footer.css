@@ -1,0 +1,10 @@
+
+
+@media(max-width: 720px){
+.devDetails{
+    flex-direction: column !important;
+    min-width: 100vw;
+    align-items: center;
+   
+}
+}
