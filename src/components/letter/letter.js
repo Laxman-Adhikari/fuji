@@ -2,7 +2,7 @@
 import React from "react";
 
 import { easeInOut, motion, useMotionValue } from "framer-motion";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 const variants = {
   animate: {
@@ -30,15 +30,9 @@ const Letter = ({ letter, bgcolor, txtcolor, position }) => {
   // Speed and direction of floating
   const speedX = 1; // Adjust this for horizontal speed
   const speedY = 1; // Adjust this for vertical speed
-  const [boundaries, setBoundaries] = useState({ boundaryX: 0, boundaryY: 0 })
-  useEffect(() => {
-    // Set initial boundaries
-    setBoundaries({
-      boundaryX: window.innerWidth,
-      boundaryY: window.innerHeight
-    })
-  },[])
-
+ 
+  const boundaryX = document.documentElement.clientWidth
+  const boundaryY = document.documentElement.clientHeight
   useEffect(() => {
     // Function to handle the floating animation
     const floating = () => {
@@ -49,7 +43,7 @@ const Letter = ({ letter, bgcolor, txtcolor, position }) => {
         const currentX = x.get();
         const currentY = y.get();
         if (currentX >= boundaryX || currentX <= "-400") directionX *= -1;
-        if (currentY >= boundaryY || currentY <= -boundaryY) directionY *= -1;
+        if (currentY >= boundaryY || currentY <= -boundaryY ) directionY *= -1;
 
         x.set(currentX + speedX * directionX); // Update x position
         y.set(currentY + speedY * directionY); // Update y position

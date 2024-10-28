@@ -153,7 +153,7 @@ export default function Home() {
               placeSelf: "center",
             }}
           >
-            What we Teach?
+            Our Reach
           </h1>
 
           <div
