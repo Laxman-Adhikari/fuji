@@ -117,7 +117,7 @@ export default function Home() {
               color: "black",
             }}
           >
-            Where we Send?
+            Our Reach
           </h1>
           <Arrow />
           <video
@@ -153,7 +153,7 @@ export default function Home() {
               placeSelf: "center",
             }}
           >
-            Our Reach
+           What we Teach?
           </h1>
 
           <div
