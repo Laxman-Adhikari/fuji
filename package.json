@@ -2,6 +2,12 @@
   "name": "fuji",
   "version": "0.1.0",
   "private": true,
+  "scripts": {
+      "dev": "next",
+       "build": "next build",
+       "export": "next export",
+       "start": "next start"
+     },
   "dependencies": {
     "framer-motion": "^11.5.4",
     "next": "14.2.7",

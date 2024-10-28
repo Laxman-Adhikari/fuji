@@ -23,7 +23,7 @@ borderRadius : "20px",
 alt=""
 src={profilePic}
 fill
-borderRadius="50%"
+style={{"borderRadius":"50%"}}
 />
 </div>
 <h4>{fullName}</h4>

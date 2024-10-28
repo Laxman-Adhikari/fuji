@@ -1,5 +1,4 @@
 import Image from "next/image";
-import styles from "./page.module.css";
 import "@/css/home/hero.css";
 import Button from "@/components/button/button";
 import Greeting from "@/components/Greet/greet";
@@ -13,9 +12,8 @@ import Profile from "@/components/profile/profile";
 import "@/css/home/third_home.css";
 import "@/css/home/fourth_home.css";
 import Footer from "@/components/footer/footer";
-import Popup from "@/components/popup/popup";
 import Navbar from "@/components/navbar/navbar";
-import Data from "@/data/data"
+
 
 export default function Home() {
   return (
@@ -106,7 +104,7 @@ export default function Home() {
           >
             <path
               fill="#f3f4f6"
-              fill-opacity="1.1"
+              fillOpacity="1.1"
               d="M0,0L48,26.7C96,53,192,107,288,112C384,117,480,75,576,96C672,117,768,203,864,208C960,213,1056,139,1152,106.7C1248,75,1344,85,1392,90.7L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
             ></path>
           </svg>
