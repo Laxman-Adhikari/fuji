@@ -210,27 +210,27 @@ export default function Home() {
           </h1>
 
           <div className="cards">
-            <Profile profilePic={"/img/avatars/Ajay_Chhetri.jpg"} 
+            <Profile profilePic={"/img/profile/Ajay_Chhetri.jpg"} 
             fullName={"Ajay Chhetri"} 
             des={"I loved studying English with Fuji! The teachers were supportive, and the IELTS preparation was spot-on. The counseling services for studying abroad made my planning process much smoother. Thank you!"}/>
 
-            <Profile profilePic={"/img/avatars/Bhojraj_Khanal.jpg"} 
+            <Profile profilePic={"/img/profile/Bhojraj_Khanal.jpg"} 
             fullName={"Bhojraj Khanal"} 
             des={"My journey with Fuji's Japanese course was fantastic! The lessons were engaging, and I felt well-prepared for the test. The counselors also provided great support for studying abroad. Thank you, Fuji!"} />
 
-            <Profile profilePic={"/img/avatars/Dristy_Budha.jpg"}
+            <Profile profilePic={"/img/profile/Dristy_Budha.jpg"}
              fullName={"Dristy Budha"} 
              des={"I had an amazing experience with Fuji while learning Korean! The instructors were knowledgeable, and the test preparation helped me boost my confidence for the exam. Highly recommend it!"}/>
 
-            <Profile profilePic={"/img/avatars/Pooja_Thapa.jpg"}
+            <Profile profilePic={"/img/profile/Pooja_Thapa.jpg"}
              fullName={"Pooja Thapa"} 
              des={"My experience with Fuji's Korean classes was fantastic! The curriculum was thorough, and the coaching prepared me well. The study abroad counseling also helped me make informed decisions."} />
 
-            <Profile profilePic={"/img/avatars/Sunita_Dulal.jpg"}
+            <Profile profilePic={"/img/profile/Sunita_Dulal.jpg"}
              fullName={"Sunita Dulal"} 
              des={"Fuji's English program exceeded my expectations! The classes were interactive, and the IELTS training made a significant difference in my score. I appreciate the guidance for studying abroad. Highly recommend!"}/>
 
-            <Profile profilePic={"/img/avatars/Suraj_Bhandari"} 
+            <Profile profilePic={"/img/profile/Suraj_Bhandari"} 
             fullName={"Suraj Bhandari"} 
             des={"Learning Korean at Fuji was an incredible experience! The course structure was effective, and the instructors really helped me. The counseling services for studying abroad were also very insightful!"} />
 
