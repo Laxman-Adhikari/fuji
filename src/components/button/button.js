@@ -2,7 +2,7 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
 import Popup from '../popup/popup'
-import { useRouter } from 'next/router'
+import { useRouter } from 'next/navigation'
 
 const Button = ({name,type,content}) => {
 
