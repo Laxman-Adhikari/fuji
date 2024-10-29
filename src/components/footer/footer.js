@@ -2,13 +2,10 @@
 import React from "react";
 import Image from "next/image";
 import { useState } from "react";
-import "@/css/footer/footer.css"
+import "@/css/footer/footer.css";
+import Link from "next/link";
 
 const Footer = () => {
-
-   
- 
-
   const [devDetails, setDevDetails] = useState("Show Dev Details");
 
   return (
@@ -46,37 +43,55 @@ const Footer = () => {
             height: "25vh",
           }}
         >
-          <span
-            style={{
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-            }}
-          
+          <Link
+            href="https://www.facebook.com/profile.php?id=61558430123926&mibextid=ZbWKwL"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            <Image
-              alt=""
-              src="/img/objects/facebook.svg"
-              width={30}
-              height={30}
-            />{" "}
-            Facebook{" "}
-          </span>
-          <span
-            style={{
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-            }}
+            <span
+              style={{
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+              }}
+            >
+              <Image
+                alt=""
+                src="/img/objects/facebook.svg"
+                width={30}
+                height={30}
+              />{" "}
+              Facebook{" "}
+            </span>
+          </Link>
+
+          <Link
+            href="https://m.me/280123071848140?source=qr_link_share"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            <Image
-              alt=""
-              src="/img/objects/messenger.svg"
-              width={30}
-              height={30}
-            />
-            Messenger{" "}
-          </span>
+            <span
+              style={{
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+              }}
+            >
+              <Image
+                alt=""
+                src="/img/objects/messenger.svg"
+                width={30}
+                height={30}
+              />
+              Messenger{" "}
+            </span>
+          </Link>
+
+          <Link
+            href="viber://add?number=9779857834683"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
           <span
             style={{
               display: "flex",
@@ -88,6 +103,13 @@ const Footer = () => {
             <Image alt="" src="/img/objects/viber.svg" width={30} height={30} />
             Viber
           </span>
+          </Link>
+
+          <Link
+            href="https://wa.me/message/AOURTRW4IDO3N1"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
           <span
             style={{
               display: "flex",
@@ -104,18 +126,20 @@ const Footer = () => {
             />
             Whatsapp{" "}
           </span>
+          </Link>
         </div>
-        <div className="devDetails"
+        <div
+          className="devDetails"
           style={{
             width: "50vw",
             display: "flex",
             justifyContent: "space-around",
-            justifySelf: "center"
+            justifySelf: "center",
           }}
           onClick={() => {
             setDevDetails(
               "<div> Developed By Komalhari Shrestha </div>" +
-              "<div> 📧komalhari777@gmail.com </div>"
+                "<div> 📧komalhari777@gmail.com </div>"
             );
           }}
           dangerouslySetInnerHTML={{ __html: devDetails }}
