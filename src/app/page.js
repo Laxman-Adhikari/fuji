@@ -13,6 +13,7 @@ import "@/css/home/third_home.css";
 import "@/css/home/fourth_home.css";
 import Footer from "@/components/footer/footer";
 import Navbar from "@/components/navbar/navbar";
+import Link from "next/link";
 
 
 export default function Home() {
@@ -61,6 +62,7 @@ export default function Home() {
               </div>
 
               <div className="button_container">
+        
                 <Button
                   name={"Start Learning"}
                   type={true}
@@ -70,8 +72,9 @@ export default function Home() {
                       src="/img/buttons/start.svg"
                       width={30}
                       height={30}
-                    />
-                  }
+                       />
+                        }
+                      
                 />
 
                 <Button

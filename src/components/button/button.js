@@ -2,22 +2,21 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
 import Popup from '../popup/popup'
+import { useRouter } from 'next/router'
 
 const Button = ({name,type,content}) => {
 
   const [click, setclick] =useState(false)
   const [state, setState]=useState(true)
-
+  const router = useRouter()
 const handleBold=()=>{
   setclick(true)
 setState(!state)
 
 }
 const handleLight=()=>{
-  alert("I am light")
+router.push('/more')
 }
-
-console.log("inside btn component" + click)
  
   return (
 <>

@@ -17,13 +17,12 @@ const variants = {
 };
 
 const Popup = ({ click, state }) => {
-  console.log("above" + click);
+
 
   const [visible, setVisible] = useState();
 
   useEffect(() => setVisible(click), [state, click]);
 
-  console.log("after" + visible);
 
   return (
     <>
