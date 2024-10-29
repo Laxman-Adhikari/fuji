@@ -8,6 +8,11 @@ const Button = ({name,type,content}) => {
 
   const [click, setclick] =useState(false)
   const [state, setState]=useState(true)
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
   const router = useRouter()
 const handleBold=()=>{
   setclick(true)
@@ -15,7 +20,9 @@ setState(!state)
 
 }
 const handleLight=()=>{
+  if(mounted){
 router.push('/more')
+  }
 }
  
   return (
