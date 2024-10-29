@@ -28,7 +28,7 @@ const Popup = ({ click, state }) => {
     <>
       {visible && (
         <div
-          className="container"
+          className="popup_container"
           style={{
             position: "absolute",
             inset: 0,
