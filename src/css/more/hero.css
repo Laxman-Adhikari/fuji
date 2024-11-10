@@ -1,4 +1,4 @@
-.hero{
+.hero_more{
     max-height: 85svh;
     width:100vw;
     display: grid;
@@ -10,7 +10,7 @@
 }
 
 
-.hero{
+.hero_more{
     background: rgb(236,202,202);
     background: -moz-linear-gradient(90deg, rgba(236,202,202,1) 55%, rgba(255,255,255,1) 100%);
     background: -webkit-linear-gradient(90deg, rgba(236,202,202,1) 55%, rgba(255,255,255,1) 100%);
@@ -38,7 +38,7 @@ p{
 }
 
 @media(max-width:720px){
-    .hero{
+    .hero_more{
         grid-template-columns: 1fr ;
        padding-top: 1rem;
      

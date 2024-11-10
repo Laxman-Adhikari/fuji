@@ -9,7 +9,7 @@ const more = () => {
     <>
       <Navbar />
       <main>
-        <section className={"hero"}>
+        <section className={"hero_more"}>
           <div className={"heroLeft"}>
             <div>
               <h3>Introduction</h3>
